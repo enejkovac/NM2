@@ -33,6 +33,6 @@ Rh1 = prava_vrednost - Sh1; % mogoce kontra
 Rh2 = prava_vrednost - Sh2;
 
 % ekstrapolacija % 
-eksRh2 = (Sh2 - Sh1)/15 ;
-eksI = (16*Sh2-Sh1)/15;
+eksRh2 = (Sh2 - Sh1)/31 ;
+eksI = (32*Sh2-Sh1)/31;
 eksNapaka = prava_vrednost - eksI;
