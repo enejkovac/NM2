@@ -2,10 +2,10 @@
 
 % y'' = (y^2 - 1)y' + y = 0, y(0) = 0, y'(0) = 1 
 
-h = 0.1;
+h = 0.01;
 Y0 = [0 ; 1];
 x0 = 0;
-K = 50; % stevilo korakov
+K = 500; % stevilo korakov
 
 % y1 = y, y2 = y'
 % [y1, y2]' = [y2, (y1^2-1)y2 + y1] 
